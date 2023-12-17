@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+    <div class="row">
+        <div class="column" id="industry-pie-chart"></div>
+        <div class="column" id="industry-pie-chart-insight"></div>
+    </div>
+    <div class="row">
+        <div class="column" id="tag-bar-chart-insight"></div>
+        <div class="column" id="tag-bar-chart"></div>
+    </div>
+    <div class="row">
+        <div class="column-full" id="gai-table-chart"></div>
+    </div>
+    <div class="row">
+        <div class="column" id="year-line-chart"></div>
+        <div class="column" id="year-line-chart-insight"></div>
+    </div>
+    
+    <div id="industry_count" style="visibility: hidden;">{{industry_count}}</div>
+    <div id="tag_count" style="visibility: hidden;">{{tag_count}}</div>
+    <div id="gai_list" style="visibility: hidden;">{{gai_list}}</div>
+    <div id="year_count" style="visibility: hidden;">{{year_count}}</div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/insight.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>

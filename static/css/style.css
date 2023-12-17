@@ -1,0 +1,74 @@
+#industry-pie-chart{
+    width: 800px;
+    height: 600px;
+}
+#tag-bar-chart {
+    width: 600px;
+    height: 400px;
+}
+#gai-table-chart {
+    width: 600px;
+    height: 500px;
+}
+#year-line-chart {
+    width: 600px;
+    height: 500px;
+}
+.row{
+    display: flex;
+    margin: 0;
+}
+
+.column{
+    flex: 50%;
+}
+
+.column-full {
+    flex: 100%;
+}
+
+#industry-pie-chart-insight{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid gray; */
+    padding-left: 20px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#tag-bar-chart-insight {
+    /* margin-top: 0px; */
+    /* margin-bottom: 200px; */
+    /* margin-right: 50px; */
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid gray; */
+    padding-left: 20px;
+    background-color:azure;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#year-line-chart-insight {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid gray; */
+    padding-left: 20px;
+    background-color:lightpink;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+}
